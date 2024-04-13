@@ -1,1 +1,70 @@
-k
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - United Drinksware</title>
+    <link rel="stylesheet" href="css/styles.css">
+	
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+<div class="container">
+
+<header>
+    <img src="image/logo.png" alt="Company Banner" height="50">
+</header>	
+    <nav>
+          <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Our Team</a>
+        <a href="specials.html">Specials</a>
+        <a href="training.html">Training</a>
+        <a href="media.html">Media</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+  <main>
+    <section>
+        <h1>Contact United Drinks Wear</h1>
+        <p>Please fill in the form below to send us your inquiries or orders:</p>
+        <ol>
+            <li>Complete the form with your details.</li>
+            <li>Select the products you are interested in or describe your inquiry.</li>
+            <li>Submit your request for quick processing.</li>
+        </ol>
+        <form action="#" method="POST" style="width: 50%; margin: auto;">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" size="20" autofocus placeholder="Your Full Name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required><br>
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Product Inquiry</legend>
+                <label for="productType">Product Type:</label>
+                <select id="productType" name="productType">
+                    <option value="mugs">Mugs</option>
+                    <option value="bottles">Bottles</option>
+                    <option value="accessories">Accessories</option>
+                </select><br>
+                <label>Preferred Contact Method:</label>
+                <input type="radio" name="contact_method" value="email" id="contactEmail"><label for="contactEmail">Email</label>
+                <input type="radio" name="contact_method" value="phone" id="contactPhone"><label for="contactPhone">Phone</label><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="20" placeholder="Type your message or inquiry here..."></textarea>
+            </fieldset>
+            <button type="submit">Submit Request</button>
+            <button type="reset">Reset Form</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 United Drinks Wear. All rights reserved.</p>
+</footer>
+</body>
+</html>
